@@ -530,7 +530,7 @@ fill: #f4f4fd;
 .footer_container {
   margin-right: 120px
 }
-.footer-3-p {
+.footer-p {
 color: var(--WHITE, #FFF);
 
 /* Body Medium */
@@ -541,9 +541,9 @@ font-weight: 500;
 line-height: 24px;
 /* 150% */
 letter-spacing: 0.32px;
-
+margin-bottom: 16px;
 }
-.footer-3 {
+.footer-div {
   margin-left: 80px;
 }
 .email_input {
@@ -553,18 +553,18 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: transparent;
 width: 264px;
   height: 40px;
-  margin-top: 16px;
   
+  color: #ffffff;
 }
 .email_input::placeholder {
-color: var(--WHITE, #FFF);
+color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.48px;
   padding-left: 16px;
 }
-.footer-3-btn {
+.footer-btn {
   display: inline-flex;
     
     justify-content: center;
@@ -575,17 +575,18 @@ color: var(--WHITE, #FFF);
       line-height: 1.5;
       letter-spacing: 0.04em;
       color: #ffffff;
-      background-color: #4d5ae5;
+      background-color: #4D5AE5;
       min-width: 165px;
       height: 40px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      margin-top: 16px;
+     
 }
 
-.footer-3-btn {
+.footer-btn:hover,
+ .footer-btn:focus{
  background-color: #404bbf;
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -596,7 +597,7 @@ color: var(--WHITE, #FFF);
   fill: #FFFFFF;
   margin-left: 16px;
 }
-.footer-3-form {
+.footer-form {
   display: flex;
     gap: 24px;
 }
